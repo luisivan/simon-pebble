@@ -5,10 +5,17 @@
   "companyName": "Tyler Hoffman",
   "versionCode": 1,
   "versionLabel": "1.2",
-  "capabilities": [ "configurable" ],
+  "capabilities": [
+    "configurable"
+  ],
   "watchapp": {
     "watchface": false
   },
+  "targetPlatforms": [
+    "aplite",
+    "basalt",
+    "chalk"
+  ],
   "appKeys": {
     "_connected": 0,
     "_connectedTo": 1,
@@ -16,7 +23,7 @@
     "_mainText": 3,
     "_footerText": 4,
     "_position": 5,
-    "_duration":6,
+    "_duration": 6,
     "_shuffle": 7,
     "_playing": 8,
     "_appVolume": 9,
@@ -135,7 +142,6 @@
         "file": "images/action_icon_checkmark.png"
       }
     ]
-  }
+  },
+  "sdkVersion": "3"
 }
-
-
